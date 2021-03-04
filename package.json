@@ -1,0 +1,22 @@
+{
+  "name": "final-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismlee26/few2.1-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrismlee26/few2.1-assessment/issues"
+  },
+  "homepage": "https://github.com/chrismlee26/few2.1-assessment#readme",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}
