@@ -65,9 +65,18 @@ const lastPaymentTest = data[0].lastpayment
 // Challenge 3 
 function formatWhenBought() {
   const output = new D(lastPaymentTest).when();
-  let 
-  console.log(output)
+  let carPaymentLog = 'Last Payment was: ' + output
+  console.log(carPaymentLog)
 }
 
 formatWhenBought()
 
+const phoneNumberTest = data[0].phone
+
+// Challenge 4
+function phoneNumberString() {
+  const phone = phoneNumberTest.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
+  console.log(phone)
+  }
+
+phoneNumberString()
